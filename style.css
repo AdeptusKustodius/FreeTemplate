@@ -1,0 +1,228 @@
+/* line 1, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+*body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 4, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+*body h1, *body h2, *body h3, *body h4, *body h5, *body h6, *body p, *body hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* line 17, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block {
+  background-color: darkgrey;
+  max-width: 1920px;
+  min-height: 1080px;
+  background-image: url(images/bg_header_743.png);
+  box-sizing: border-box;
+  display: block;
+}
+
+/* line 24, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* line 29, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__logo img {
+  margin-top: 9%;
+  display: block;
+  width: 200px;
+  height: 120px;
+  margin-bottom: 8%;
+}
+
+/* line 34, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__description {
+  margin: 0 auto;
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 12%;
+}
+
+/* line 42, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__description hr {
+  width: 105px;
+  color: #fff;
+  margin-top: 2.6%;
+}
+
+/* line 47, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__description h1 {
+  font-family: Lato;
+  font-size: 34px;
+  line-height: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* line 57, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__description h2 {
+  margin: 0;
+  font-family: Lato;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* line 66, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__btn {
+  width: 180px;
+  height: 45px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto 75px auto;
+  background-color: initial;
+  border: 1px solid #d9dbe4;
+  border-radius: 1px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+/* line 79, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.first-block__btn p {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  line-height: 1.2px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* line 88, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.arrow_down {
+  display: flex;
+  justify-content: center;
+  background-color: initial;
+  border: none;
+  width: 100%;
+}
+
+/* line 94, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.arrow_down .arrow-bottom-3 {
+  margin: 20px 8px;
+  width: 20px;
+  height: 14px;
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+
+/* line 101, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.arrow_down .arrow-bottom-3 path {
+  fill: #fff;
+  transition: fill 0.15s ease-out;
+}
+
+/* line 105, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.arrow_down .arrow-bottom-3:hover path {
+  fill: black;
+}
+
+/* line 109, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.block_about {
+  max-width: 1920px;
+  height: 732px;
+  background-color: #ffffff;
+  display: block;
+}
+
+/* line 115, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.about-header {
+  min-height: 60px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* line 120, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.about-header .about-header__nav {
+  align-items: center;
+  max-width: 420px;
+  display: flex;
+  height: 60px;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+/* line 134, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.link.active a {
+  color: #ada074;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+/* line 140, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #3c3c3c;
+}
+
+/* line 151, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.about-main {
+  display: block;
+  max-width: 1920px;
+  height: 770px;
+  background-color: #ffffff;
+  padding-top: 125px;
+  box-sizing: border-box;
+}
+
+/* line 158, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.about-main h1 {
+  text-align: center;
+  font-family: Lato;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  padding-bottom: 35px;
+  color: #000000;
+  margin: 0;
+}
+
+/* line 170, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.about-main p {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #868585;
+}
+
+/* line 177, D:/Downloads/OSPanel/domains/localhost/333/style/style.scss */
+.about-main hr {
+  width: 82px;
+  margin: 0 auto;
+  color: #7e7e7e;
+}
+
+/*# sourceMappingURL=style.css.map */
